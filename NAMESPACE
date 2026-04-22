@@ -1,0 +1,17 @@
+export(load_icd_dictionary)
+export(icd_desc)
+export(add_icd_desc)
+export(add_icd_desc_any)
+export(add_rule_desc)
+export(rules_with_desc)
+export(add_icd_desc_df)
+
+
+export(load_proc_dictionary)
+export(proc_desc)
+export(add_proc_desc_any)
+export(add_proc_desc_df)
+export(proc_rules_with_desc)
+
+importFrom(arules, lhs, rhs, quality, labels)
+importFrom(readxl, read_xlsx)
