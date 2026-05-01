@@ -3,7 +3,7 @@ Title: Simple ICD-10 Code Descriptions
 Version: 0.1.0
 Authors@R: person("Nisha", "Sheshashayee", email = "sheshana@mail.uc.edu", role = c("aut", "cre"))
 Description: Looks up ICD-10 descriptions from Excel. Works on vectors, columns, or any kind of output that needs ICD-10 description columns. Super easy for beginners.
-License: MIT
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports: readxl
