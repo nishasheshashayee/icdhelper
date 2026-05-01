@@ -6,6 +6,11 @@
 #'
 #' @param code ICD-10 code(s), quoted or unquoted.
 #' @return A character vector of descriptions.
+#'
+#' @examples
+#' icd_desc("I10")
+#' icd_desc(c("I10", "E11"))
+#'
 #' @export
 icd_desc <- function(code) {
   dict <- load_icd_dictionary()

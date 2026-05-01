@@ -17,3 +17,8 @@ Looks up the description for one or more ICD-10 codes using the package dictiona
 Accepts quoted codes like "I10", bare vectors like c(I10, M272, E785),
 and a single bare code like I10.
 }
+\examples{
+icd_desc("I10")
+icd_desc(c("I10", "E11"))
+
+}
