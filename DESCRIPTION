@@ -6,6 +6,5 @@ Description: Looks up ICD-10 descriptions from Excel. Works on vectors, columns,
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-Imports: readxl
-Suggests: arules
+Imports: readxl, arules
 RoxygenNote: 7.3.3
