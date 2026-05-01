@@ -1,3 +1,19 @@
+
+# icdhelper
+
+An R package for converting ICD-10 diagnosis codes and ICD-10-PCS procedure codes into human-readable descriptions.
+
+---
+
+## Motivation
+
+This package was developed while working with NIS (National Inpatient Sample) data, where ICD codes are difficult to interpret and require repetitive manual lookup.
+
+During research, manually mapping ICD codes to descriptions was time-consuming and error-prone. This package automates that process for vectors, data frames, and association rule outputs.
+
+---
+
+
 # icdhelper
 
 An R package for converting ICD-10 diagnosis codes and ICD-10-PCS procedure codes into descriptions.
